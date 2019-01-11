@@ -2,7 +2,6 @@ import {
   LitElement,
   html
 } from "https://unpkg.com/@polymer/lit-element@latest/lit-element.js?module";
-import { repeat } from "https://unpkg.com/lit-html@0.9.0/lib/repeat.js?module";
 
 class PcCard extends LitElement {
   static get properties() {
@@ -46,25 +45,51 @@ class PcCard extends LitElement {
             ? html`
                 <paper-item>
                   ${pc_networth.attributes.friendly_name.replace("PC ", "")}:
-                  ${pc_networth.state}
+                  ${this.formatMoney(pc_networth.state)}
                 </paper-item>
               `
             : ""
         }
         ${
-          repeat(
-            pc_entities,
-            (item, index) =>
-              html`
-                <paper-item>
-                  ${item.attributes.friendly_name.replace("PC ", "")}:
-                  ${item.state}
-                </paper-item>
-              `
+          pc_entities.map(
+            entity => html`
+              <paper-item>
+                ${entity.attributes.friendly_name.replace("PC ", "")}:
+                ${this.formatMoney(entity.state)}
+              </paper-item>
+            `
           )
         }
       </ha-card>
     `;
+  }
+
+  formatMoney(amount, decimalCount = 2, decimal = ".", thousands = ",") {
+    try {
+      decimalCount = Math.abs(decimalCount);
+      decimalCount = isNaN(decimalCount) ? 2 : decimalCount;
+
+      const negativeSign = amount < 0 ? "-" : "";
+
+      let i = parseInt(
+        (amount = Math.abs(Number(amount) || 0).toFixed(decimalCount))
+      ).toString();
+      let j = i.length > 3 ? i.length % 3 : 0;
+
+      return (
+        negativeSign +
+        (j ? i.substr(0, j) + thousands : "") +
+        i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + thousands) +
+        (decimalCount
+          ? decimal +
+            Math.abs(amount - i)
+              .toFixed(decimalCount)
+              .slice(2)
+          : "")
+      );
+    } catch (e) {
+      console.log(e);
+    }
   }
 }
 
