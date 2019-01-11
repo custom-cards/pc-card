@@ -19,6 +19,7 @@ This card is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Ass
 | Name | Type | Requirement | Description
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `custom:pc-card`
+| title | string | **Optional** | Card title
 | excluded_entities | list | **Optional** | List of entities to exclude
 
 ## Installation
