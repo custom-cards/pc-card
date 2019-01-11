@@ -12,7 +12,7 @@ Hey dude! Help me out for a couple of :beers: or a :coffee:!
 # Personal Capital Card
 💵 Personal Capital Lovelace Card
 
-This card is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assistant](https://www.home-assistant.io/) that display account data from the [sensor.personalcapital custom component](https://github.com/custom-components/sensor.personalcapital).
+This card is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assistant](https://www.home-assistant.io/) that display account data from the [sensor.personalcapital](https://github.com/custom-components/sensor.personalcapital) custom component.
 
 ## Options
 
