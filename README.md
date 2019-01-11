@@ -42,7 +42,7 @@ Link `pc-card` inside your `ui-lovelace.yaml`.
 ```yaml
 resources:
   - url: /local/pc-card.js?v=0
-    type: js
+    type: module
 ```
 
 ### Step 3
