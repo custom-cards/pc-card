@@ -1,6 +1,6 @@
 
 
-[![Version](https://img.shields.io/badge/version-0.0.1-green.svg?style=for-the-badge)](#) [![mantained](https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge)](#)
+[![Version](https://img.shields.io/badge/version-0.0.2-green.svg?style=for-the-badge)](#) [![mantained](https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge)](#)
 
 [![maintainer](https://img.shields.io/badge/maintainer-Ian%20Richardson%20%40iantrich-blue.svg?style=for-the-badge)](#)
 
@@ -20,7 +20,6 @@ This card is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Ass
 | ---- | ---- | ------- | -----------
 | type | string | **Required** | `custom:pc-card`
 | title | string | **Optional** | Card title
-| excluded_entities | list | **Optional** | List of entities to exclude
 
 ## Installation
 
@@ -51,7 +50,5 @@ Add a custom element in your `ui-lovelace.yaml`
 
 ```yaml
       - type: custom:pc-card
-        excluded_entities:
-          - sensor.pc_cash
-          - sensor.pc_credit_cards
+        title: Money
 ```
