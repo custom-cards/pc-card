@@ -25,7 +25,7 @@ This card is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Ass
 
 ### Step 1
 
-Install `pc-card` by copying `pc-card.js`from this repo to `<config directory>/www/pc-card.js` on your Home Assistant instanse.
+Save [pc-card](https://github.com/custom-cards/pc-card/raw/master/pc-card.js) `<config directory>/www/pc-card.js` on your Home Assistant instanse.
 
 **Example:**
 
