@@ -52,3 +52,5 @@ Add a custom element in your `ui-lovelace.yaml`
       - type: custom:pc-card
         title: Money
 ```
+
+[Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
