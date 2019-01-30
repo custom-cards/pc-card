@@ -14,6 +14,9 @@ Hey dude! Help me out for a couple of :beers: or a :coffee:!
 
 This card is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assistant](https://www.home-assistant.io/) that display account data from the [sensor.personalcapital](https://github.com/custom-components/sensor.personalcapital) custom component.
 
+# NOTE: Firefox releases before 67 are not supported
+https://twitter.com/_developit/status/1090364879377260544
+
 ## Options
 
 | Name | Type | Requirement | Description
