@@ -1,16 +1,21 @@
+# Personal Capital Card
+💵 Personal Capital Lovelace Card
 
+[![GitHub Release][releases-shield]][releases]
+[![License][license-shield]](LICENSE.md)
 
-[![Version](https://img.shields.io/badge/version-0.0.3-green.svg?style=for-the-badge)](#) [![mantained](https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge)](#)
+![Project Maintenance][maintenance-shield]
+[![GitHub Activity][commits-shield]][commits]
 
-[![maintainer](https://img.shields.io/badge/maintainer-Ian%20Richardson%20%40iantrich-blue.svg?style=for-the-badge)](#)
+[![Discord][discord-shield]][discord]
+[![Community Forum][forum-shield]][forum]
 
 ## Support
 Hey dude! Help me out for a couple of :beers: or a :coffee:!
 
 [![coffee](https://www.buymeacoffee.com/assets/img/custom_images/black_img.png)](https://www.buymeacoffee.com/zJtVxUAgH)
 
-# Personal Capital Card
-💵 Personal Capital Lovelace Card
+
 
 This card is for [Lovelace](https://www.home-assistant.io/lovelace) on [Home Assistant](https://www.home-assistant.io/) that display account data from the [sensor.personalcapital](https://github.com/custom-components/sensor.personalcapital) custom component.
 
@@ -57,3 +62,14 @@ Add a custom element in your `ui-lovelace.yaml`
 ```
 
 [Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
+
+[commits-shield]: https://img.shields.io/github/commit-activity/y/custom-cards/pc-card.svg
+[commits]: https://github.com/custom-cards/roku-card/commits/master
+[discord]: https://discord.gg/Qa5fW2R
+[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
+[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
+[forum]: https://community.home-assistant.io/t/lovelace-personal-capital-component-card/91463
+[license-shield]: https://img.shields.io/github/license/custom-cards/pc-card.svg
+[maintenance-shield]: https://img.shields.io/badge/maintainer-Ian%20Richardson%20%40iantrich-blue.svg
+[releases-shield]: https://img.shields.io/github/release/custom-cards/pc-card.svg
+[releases]: https://github.com/custom-cards/pc-card/releases
