@@ -1,0 +1,14 @@
+name: Personal Capital Card
+description: 💵 Personal Capital Card
+type: lovelace
+keywords:
+  - personal
+  - capital
+  - money
+  - finance
+  - accounts
+author:
+  name: Ian Richardson
+license: Apache License, Version 2.0
+files:
+  - pc-card.js
