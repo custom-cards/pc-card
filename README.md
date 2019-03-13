@@ -64,7 +64,7 @@ Add a custom element in your `ui-lovelace.yaml`
 [Troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins)
 
 [commits-shield]: https://img.shields.io/github/commit-activity/y/custom-cards/pc-card.svg?style=for-the-badge
-[commits]: https://github.com/custom-cards/roku-card/commits/master
+[commits]: https://github.com/custom-cards/pc-card/commits/master
 [discord]: https://discord.gg/Qa5fW2R
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg?style=for-the-badge
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
