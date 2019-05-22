@@ -24,7 +24,7 @@ Follow the [troubleshooting](https://github.com/thomasloven/hass-config/wiki/Lov
 [discord-shield]: https://img.shields.io/discord/330944238910963714.svg?style=for-the-badge
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg?style=for-the-badge
 [forum]: https://community.home-assistant.io/t/lovelace-personal-capital-component-card/91463
-[license-shield]: https://img.shields.io/github/license/custom-cards/timer-card.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/custom-cards/pc-card.svg?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/badge/maintainer-Ian%20Richardson%20%40iantrich-blue.svg?style=for-the-badge
 [twitter]: https://img.shields.io/twitter/follow/iantrich.svg?style=social
 [github]: https://img.shields.io/github/followers/iantrich.svg?style=social
