@@ -1,5 +1,4 @@
-# Personal Capital Card
-💵 Personal Capital Lovelace Card
+# 💵 Personal Capital Card by [@iantrich](https://www.github.com/iantrich)
 
 [![GitHub Release][releases-shield]][releases]
 [![License][license-shield]](LICENSE.md)
